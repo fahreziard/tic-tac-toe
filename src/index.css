@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #e4ecf7; /* Light bluish background */
+}
+
+.square {
+  width: 100px; /* Increase the width */
+  height: 100px; /* Increase the height */
+  border: 1px solid #99a3c1; /* Bluish border */
+  background-color: #fff;
+  color: #7b8aa6;
+  font-size: 3.5em; /* Increase the font size for larger text */
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px; /* Slight border radius */
+}
+
+.board {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 100px); /* Adjust the column size */
+  grid-gap: 10px; /* Increased gap between squares */
+  width: 330px; /* Adjusted grid width (3 * 100px + 2 * 10px) */
+  height: 330px; /* Adjusted grid height (3 * 100px + 2 * 10px) */
+}
+
+.status {
+  margin-bottom: 24px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-info {
+  margin: 12px;
+  color: #333;
+}
+
+.game-board {
+  margin-top: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn-history {
+  font-family: "Inter", sans-serif;
+  margin: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #99a3c1; /* Bluish background for buttons */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-history:hover {
+  background-color: #7b8aa6; /* Darker bluish background on hover */
+}

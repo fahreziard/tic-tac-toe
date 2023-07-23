@@ -15,7 +15,7 @@ Permainan ini dilengkapi dengan fitur "time travel" yang memungkinkan pemain unt
 
 ## Cara Menjalankan Permainan
 
-1. Clone repository: `git clone https://github.com/username-anda/tic-tac-toe.git`
+1. Clone repository: `git clone https://github.com/fahreziard/tic-tac-toe.git`
 2. Buka folder proyek: `cd tic-tac-toe`
 3. Pasang dependensi: `npm install`
 4. Mulai server pengembangan: `npm start`

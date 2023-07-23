@@ -25,5 +25,5 @@ Nikmati bermain Tic Tac Toe dan bersenang-senanglah dengan fitur "time travel"!
 
 ## Tangkapan Layar
 
-[Tambahkan tangkapan layar permainan Anda di sini (opsional).]
+![Screenshoot](src/tictactoe.png)
 
